@@ -23192,7 +23192,7 @@ img.wp-smiley, img.emoji {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("owl.video.play.png") no-repeat;
+    background: url("../images/owl.video.play.png") no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -26546,24 +26546,24 @@ img.wp-smiley, img.emoji {
     cursor: default !important }
  .owl-carousel .owl-item {
     float:left;
-    cursor: url("assets/images/icon-move.png"), move;
+    cursor: url("../images/icon-move.png"), move;
     overflow: hidden;
 }
  .owl-carousel.white-cursor .owl-item {
-    cursor: url("assets/images/icon-move-light.png"), move;
+    cursor: url("../images/icon-move-light.png"), move;
 }
  .owl-carousel.black-cursor .owl-item {
-    cursor: url("assets/images/icon-move.png"), move;
+    cursor: url("../images/icon-move.png"), move;
 }
  .owl-carousel.no-cursor .owl-item {
     float:left;
     cursor: default;
 }
  .scrollToDownSection .owl-carousel .owl-item, .scroll-to-down-white .owl-carousel .owl-item {
-    cursor: url("assets/images/arrow-down-white.png"), pointer;
+    cursor: url("../images/arrow-down-white.png"), pointer;
 }
  .scroll-to-down .owl-carousel .owl-item {
-    cursor: url("assets/images/arrow-down-black.png"), pointer;
+    cursor: url("../images/arrow-down-black.png"), pointer;
 }
  /* =================================== Navigation ====================================== */
  #header {
@@ -26587,7 +26587,7 @@ img.wp-smiley, img.emoji {
     vertical-align: middle;
 }
  .navbar-header {
-    background: url("assets/images/logo-border.png") right no-repeat }
+    background: url("../images/logo-border.png") right no-repeat }
  .navbar-header h1 {
     padding: 0;
     margin: 0 }
@@ -27521,7 +27521,7 @@ img.wp-smiley, img.emoji {
     padding: 5px 15px;
     color: #9b9b9b }
  .portfolio-filter-tab-style-4 li.active a:before {
-    background: url('assets/images/arrow.png') right center no-repeat;
+    background: url('../images/arrow.png') right center no-repeat;
     content: "/";
     width: 100%;
     position: absolute;
@@ -27652,7 +27652,7 @@ img.wp-smiley, img.emoji {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     opacity: 0.15;
-    cursor: url("assets/images/icon-zoom.png"), pointer;
+    cursor: url("../images/icon-zoom.png"), pointer;
 }
  .grid figure:hover figcaption {
     opacity: 1;
@@ -27688,7 +27688,7 @@ img.wp-smiley, img.emoji {
     transform: translateY(-50%);
     position: relative;
     z-index: 2;
-    cursor: url(assets/images/icon-zoom.png), pointer;
+    cursor: url(../images/icon-zoom.png), pointer;
 }
  .grid-style1 .grid figcaption h3 span {
     margin-top: 5px;
@@ -27698,7 +27698,7 @@ img.wp-smiley, img.emoji {
     line-height: 25px;
     font-weight: 600;
     color: #000;
-    cursor: url(assets/images/icon-zoom.png), pointer;
+    cursor: url(../images/icon-zoom.png), pointer;
 }
  .grid-style1-border {
     border: 8px solid #fdd947;
@@ -27785,7 +27785,7 @@ img.wp-smiley, img.emoji {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     opacity: .1;
-    cursor: url("assets/images/icon-zoom-white2.png"), pointer;
+    cursor: url("../images/icon-zoom-white2.png"), pointer;
     box-shadow:none;
     outline:none;
     -webkit-filter: blur(3px);
@@ -27868,7 +27868,7 @@ img.wp-smiley, img.emoji {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     opacity: .3;
-    cursor: url("assets/images/icon-zoom-white2.png"), pointer;
+    cursor: url("../images/icon-zoom-white2.png"), pointer;
     box-shadow:none;
     outline:none;
 }
@@ -28703,7 +28703,7 @@ img.wp-smiley, img.emoji {
     margin: 10px 0 0 0;
     position: relative;
     overflow: hidden;
-    cursor: url("assets/images/arrow-white.png"), pointer;
+    /* cursor: url("../images/arrow-white.png"), pointer; */
     cursor: default;
 }
  .blog-post-style4:first-child article {
@@ -28876,7 +28876,7 @@ img.wp-smiley, img.emoji {
     overflow: hidden;
     background-color: #fff;
     margin: 0 0 20px;
-    background: #fff url("assets/images/select-arrow.png") no-repeat 97% 50%;
+    background: #fff url("../images/select-arrow.png") no-repeat 97% 50%;
 }
  .select-style select {
     width: 100%;
@@ -29681,7 +29681,7 @@ img.wp-smiley, img.emoji {
     padding: 0 15px 0 0;
     z-index: 1 }
  .arrow-link:before {
-    background: url('assets/images/arrow.png') right 6px no-repeat;
+    background: url('../images/arrow.png') right 6px no-repeat;
     top: -3px;
     content: "arrow";
     text-indent: -9999px;
@@ -29729,7 +29729,7 @@ img.wp-smiley, img.emoji {
     padding: 0 10px;
     z-index: 1 }
  .line-link:before {
-    background: url('assets/images/link-line.png') center 12px no-repeat;
+    background: url('../images/link-line.png') center 12px no-repeat;
     content: "arrow";
     text-indent: -9999px;
     width: 100%;
@@ -29933,9 +29933,9 @@ img.wp-smiley, img.emoji {
     pointer-events:none;
 }
  /* =================================== Tattoo demo ====================================== */
- .section-top-pattern {
-    background: url(assets/images/tattoo-icon-bg.jpg) no-repeat top center;
-}
+ /* .section-top-pattern { */
+    /* background: url(../images/tattoo-icon-bg.jpg) no-repeat top center; */
+/* } */
  .tattoo-art-bg {
     min-height: 710px;
 }
@@ -30552,7 +30552,7 @@ img.wp-smiley, img.emoji {
     top: 125px;
     border-radius: 4px;
     right: -151px;
-    background: url("assets/images/buy-theme.png") no-repeat 14px center rgba(50, 50, 50, .8);
+    background: url("../images/buy-theme.png") no-repeat 14px center rgba(50, 50, 50, .8);
     z-index: 10 }
  .buy-theme:hover, .quick-question:hover {
     right: -26px }
@@ -30577,7 +30577,7 @@ img.wp-smiley, img.emoji {
     top: 175px;
     border-radius: 4px;
     right: -109px;
-    background: url("assets/images/quick-question.png") no-repeat 14px center rgba(50, 50, 50, .8);
+    background: url("../images/quick-question.png") no-repeat 14px center rgba(50, 50, 50, .8);
     z-index: 10 }
  /* equal height */
  .row-equal-height .brando-row-flex {
