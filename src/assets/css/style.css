@@ -31519,7 +31519,7 @@ img.wp-smiley, img.emoji {
  @media (max-width: 1199px) {
     /* custom */
  section {
-    padding: 110px 0;
+    padding: 60px 0;
 }
  .md-center-col {
     float:none !important;
@@ -37373,4 +37373,25 @@ img.wp-smiley, img.emoji {
 }
  nav.without-border.shrink {
     background: #000000;
+}
+.agile__nav-button{
+    visibility: hidden;
+}
+.agile__dot button {
+	cursor: pointer;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	width: 30px;
+  	border: 2px solid #000000;
+}
+.agile__dot {
+	padding: 0px 2.5px;
+}
+
+.agile__dot.agile__dot--current button{
+  	border: 2px solid #FFFFFF;
+}
+.agile__dot.agile__dot--current ~ .agile__dot button{
+  	border: 2px solid #0000007a;
 }

@@ -20,7 +20,7 @@
                         />
                     </a>
                 </div>
-                <button
+                <!-- <button
                     type="button"
                     class="navbar-toggle collapsed"
                     data-toggle="collapse"
@@ -30,8 +30,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                <div
+                </button> -->
+                <!-- <div
                     class="col-lg-6 col-md-6 col-sm-9 collapse navbar-collapse accordion-menu"
                     id="bs-example-navbar-collapse-1"
                 >
@@ -86,8 +86,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div
+                </div> -->
+                <!-- <div
                     class="col-lg-3 col-md-2 sm-no-padding-left pull-right header-right text-right sm-display-none"
                 >
                     <div id="text-3" class="custom-widget widget_text">
@@ -103,7 +103,7 @@
                             >
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>

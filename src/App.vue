@@ -4,6 +4,8 @@
 
 <script>
 export default {
+    created() {
+    },
     mounted() {
         this.$store.dispatch('updateDomain');
     }
