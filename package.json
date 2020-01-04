@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "bowser": "^2.8.1",
     "core-js": "^3.4.3",
     "vue": "^2.6.10",
     "vue-agile": "^1.0.11",

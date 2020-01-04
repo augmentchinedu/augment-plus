@@ -14,6 +14,7 @@ axios.defaults.headers.post['Content-Type'] =
 // Import CSS
 import './assets/css/style.css';
 
+
 Vue.config.productionTip = false;
 Vue.use(VueAgile);
 Vue.use(Vuex);
